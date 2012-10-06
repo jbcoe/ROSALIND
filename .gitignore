@@ -1,2 +1,4 @@
 *.o
 CountingNucleotides/CountingNucleotides
+RNATranscription/RNATranscription
+ReverseComplement/ReverseComplement
