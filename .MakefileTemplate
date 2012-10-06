@@ -1,0 +1,6 @@
+include ../compilerSettings.mk
+
+SOURCES=PROJECT_NAME.cpp
+EXECUTABLE=PROJECT_NAME
+
+include ../makeCommon.mk
