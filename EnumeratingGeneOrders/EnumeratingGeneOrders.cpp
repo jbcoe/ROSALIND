@@ -39,7 +39,7 @@ void ListPermutations(int perm)
 			if ( *it_k < *it ) it_l = it;
 		}
 	
-		std::swap(*it_k,*it_l);
+		std::iter_swap(it_k,it_l);
 		std::reverse(it_k+1,integers.end());
 	}
 }
